@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 🌐 PACT Booking App  
+### _A Prototype Mobile Booking System for Peterhead Area Community Trust (PACT)_  
+**Developed by Group Quebec** | Robert Gordon University | CM2112 Module  
+📅 **Submission Date:** 3rd December 2025  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+<div align="center">
+  <img src="./assets/images/pact-logo.jpeg" alt="PACT Booking App Thumbnail" width="160"/>
 
-1. Install dependencies
+  <p><em>Empowering communities through digital inclusion and smarter facility management.</em></p>
 
-   ```bash
-   npm install
-   ```
+  <a href="https://www.figma.com/design/bZK56WqNrLq9PiuyhAXUzU/PACT---App?m=auto&t=29NkFtfNwtnJNiL5-1">
+    🎨 View the Figma Design
+  </a>
 
-2. Start the app
+  <br /><br />
 
-   ```bash
-   npx expo start
-   ```
+  <img src="https://img.shields.io/badge/Framework-React%20Native-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Platform-Expo-lightgrey?logo=expo" />
+  <img src="https://img.shields.io/badge/Language-TypeScript-blue" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-teal" />
+  <img src="https://img.shields.io/badge/Testing-UX%20and%20Prototype-orange" />
+</div>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📖 Overview  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The **PACT Booking App** is a cross-platform mobile prototype designed for the **Peterhead Area Community Trust (PACT)** — a volunteer-led charity based in Peterhead, Scotland.  
 
-## Get a fresh project
+This app prototype demonstrates how technology can improve **community engagement**, **accessibility**, and **facility management**. Built with **React Native and Expo**, it allows users to:
+- Browse community facilities  
+- View availability  
+- Book time slots  
+- Manage personal bookings  
 
-When you're ready, run:
+The system demonstrates how PACT could scale into a **“Smart Community Hub”**, supporting volunteering, news updates, and IoT park integrations.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🧩 Core Features  
 
-## Learn more
+| Category | Description |
+|-----------|-------------|
+| 🏠 **Home & Explore Pages** | View and search facilities available for booking |
+| 🕓 **Facility Booking** | Choose a slot, confirm booking, view in profile |
+| 👤 **Profile Page** | Track previous and current bookings |
+| 🔐 **Mock Authentication** | Demo Google-style login via AsyncStorage |
+| 🎨 **UI/UX Design** | Created in **Figma** (wireframes + high-fidelity mockups) |
+| ⚙️ **Offline Data** | Uses mock data to simulate real backend and user flow |
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🧠 Project Architecture  
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
