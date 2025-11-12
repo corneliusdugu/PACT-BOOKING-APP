@@ -54,3 +54,130 @@ The system demonstrates how PACT could scale into a **“Smart Community Hub”*
 
 ## 🧠 Project Architecture  
 
+```
+app/
+ ┣ (root)/
+ ┃ ┣ (tabs)/             # Home, Explore, and Profile screens
+ ┃ ┣ book/[id].tsx       # Facility booking page
+ ┃ ┗ _layout.tsx         # Root stack navigation
+ ┣ sign-in.tsx           # User authentication (mock)
+ ┣ index.tsx             # Entry and routing logic
+ ┗ _layout.tsx           # Global provider and wrapper
+
+lib/
+ ┣ global-provider.tsx   # App-wide context and state management
+ ┣ mock-api.ts           # Facility & booking mock API
+ ┗ types.ts              # Shared data interfaces
+
+components/
+ ┗ FacilityCard.tsx      # Facility UI card component
+```
+
+---
+
+## 🧑‍💻 Tech Stack  
+
+| Layer | Technology |
+|-------|-------------|
+| Framework | [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/) |
+| Language | TypeScript |
+| Styling | TailwindCSS (NativeWind) |
+| Navigation | Expo Router |
+| State Management | React Context API |
+| Storage | AsyncStorage |
+| UX Testing | A/B, Think-Aloud, and 5-Second Testing |
+| Version Control | Git & GitHub |
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/<your-username>/pact-booking.git
+cd pact-booking
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+```bash
+npx expo start
+```
+
+Then open it using:
+- 📱 Android Emulator  
+- 🍎 iOS Simulator  
+- 🌐 Web via Expo Go  
+
+You can also scan the QR code in your terminal with the **Expo Go app** on your mobile device.
+
+---
+
+## 🧪 UX Testing Summary  
+
+The prototype underwent **user testing** using:
+- ✅ **A/B Testing** — compared booking layouts  
+- ✅ **5-Second Testing** — assessed first impression clarity  
+- ✅ **Think-Aloud Testing** — gathered real-time user feedback  
+
+### Key Insights:
+- Users preferred left-aligned booking slots  
+- The “Book” button drew quick attention  
+- Simplicity and visual clarity scored highly  
+
+---
+
+## 🧭 Future Enhancements  
+
+| Feature | Description |
+|----------|-------------|
+| 📰 **Community Newsfeed** | Local updates and park events |
+| 🤝 **Volunteer Management** | Sign-up flow for local initiatives |
+| ☁️ **Backend Integration** | Real-time booking with **MongoDB** or **PostgreSQL** |
+| 🌍 **Cloud Hosting** | Deployment on **AWS** or **Azure** for scalability |
+| 🔔 **Push Notifications** | Event reminders and booking alerts |
+| 🧏‍♂️ **Accessibility** | Multilingual & inclusive design |
+| 🧠 **IoT Dashboard** | Smart park sensors (footfall, energy, environment) |
+
+---
+
+## 📘 Legal, Ethical & Professional Considerations  
+
+- 🧾 **Data Protection:** DPIA and Ethics forms completed per UK GDPR.  
+- 🛡️ **Privacy:** No personal data collected; mock users only.  
+- ⚖️ **Professional Standards:** Follows RGU ethical and technical guidelines.  
+
+---
+
+## 👥 Group Quebec  
+
+| Name | Student ID |
+|------|-------------|
+| Cornelius D. Dugu | 2423332 |
+| Matthew Sarkodie Darkwah | 2506116 |
+| Samuel Newman Oduro | 2421670 |
+| Fredrick Osagioduwa Eriamiatoe | 2423338 |
+
+**Module Coordinator:** Ross McLean  
+**Institution:** Robert Gordon University  
+
+---
+
+## 📚 References  
+
+- PACT Peterhead: [Facebook Page](https://www.facebook.com/PETERHEADAREACOMMUNITYTRUST/)  
+- Figma Design: [UI/UX Prototype](https://www.figma.com/design/bZK56WqNrLq9PiuyhAXUzU/PACT---App?m=auto&t=29NkFtfNwtnJNiL5-1)  
+- Research Sources: RGU Library, Google Scholar, YouTube, RefWorks, Generative AI  
+
+---
+
+<div align="center">
+
+**“Digital inclusion begins with community.”**  
+💙 Built with care by **Group Quebec** | © 2025 Robert Gordon University  
+
+</div>
