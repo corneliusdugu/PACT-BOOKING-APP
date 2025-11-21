@@ -10,7 +10,7 @@
 
   <p><em>Empowering communities through digital inclusion and smarter facility management.</em></p>
 
-  <a href="https://www.figma.com/design/bZK56WqNrLq9PiuyhAXUzU/PACT---App?node-id=104-2&t=vO7a5McuPpskOlM0-1">
+  <a href="https://www.figma.com/design/bZK56WqNrLq9PiuyhAXUzU/PACT---App?node-id=39-36&t=vO7a5McuPpskOlM0-1">
     🎨 View the Figma Design
   </a>
 
