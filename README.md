@@ -178,6 +178,6 @@ The prototype underwent **user testing** using:
 <div align="center">
 
 **“Digital inclusion begins with community.”**  
-💙 Built with care by **Group Quebec** | © 2025 Robert Gordon University  
+💙 Built with care by **Group Quebec** | © 2025 Peteterhead Area Comunity Trust
 
 </div>
